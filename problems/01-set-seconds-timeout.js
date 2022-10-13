@@ -24,7 +24,8 @@ setSecondsTimeout(function () {
 ***********************************************************************/
 
 function setSecondsTimeout(cb, delayInSeconds) {
-  // Your code here
+  let inMilliSeconds = delayInSeconds * 1000
+  setTimeout(cb, inMilliSeconds)
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
